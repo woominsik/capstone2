@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/kakaoAuth" element={KakaoAuthTokenHandler} />
+        <Route path="/kakaoAuth" element={<KakaoAuthTokenHandler />} />
       </Routes>
       <GlobalStyle />
     </BrowserRouter>
